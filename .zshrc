@@ -25,12 +25,12 @@ source "${ZINIT_HOME}/zinit.zsh"
 # Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
-# # Add in zsh plugins
-# zinit light zsh-users/zsh-syntax-highlighting
-# zinit light zsh-users/zsh-completions
-# zinit light zsh-users/zsh-autosuggestions
+# Add in zsh plugins
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
 # zinit light Aloxaf/fzf-tab
-#
+
 # # Add in snippets
 # zinit snippet OMZL::git.zsh
 # zinit snippet OMZP::git
@@ -49,16 +49,16 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #
-# # Keybindings
-# bindkey -e
-# bindkey '^p' history-search-backward
-# bindkey '^n' history-search-forward
+# Keybindings
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
 # bindkey '^[w' kill-region
 #
-# # History
-# HISTSIZE=5000
-# HISTFILE=~/.zsh_history
-# SAVEHIST=$HISTSIZE
+# History
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
 # HISTDUP=erase
 # setopt appendhistory
 # setopt sharehistory
