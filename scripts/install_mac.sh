@@ -15,6 +15,10 @@ echo "➡️  Installing required packages ..."
 
 echo "➡️  Installing stow ..."
 brew install stow
+echo "➡️  Installing fzf ..."
+brew install fzf
+echo "➡️  Installing zoxide ..."
+brew install zoxide
 
 echo "➡️  Installing fonts ..."
 brew install --cask font-fira-code-nerd-font font-jetbrains-mono-nerd-font
