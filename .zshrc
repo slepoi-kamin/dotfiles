@@ -56,11 +56,12 @@ bindkey '^n' history-search-forward
 # bindkey '^[w' kill-region
 
 # History
-HIST_STAMPS="%Y-%m-%d %H:%M:%S"
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
+HIST_STAMPS="yyyy-mm-dd"
+
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
@@ -76,8 +77,9 @@ setopt EXTENDED_HISTORY
 # zstyle ':completion:*' menu no
 # zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
-#
-# # Aliases
+
+# Aliases
+
 # alias ls='ls --color'
 # alias vim='nvim'
 # alias c='clear'
