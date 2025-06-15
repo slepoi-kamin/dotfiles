@@ -154,7 +154,7 @@ setopt HIST_IGNORE_ALL_DUPS
 if [[ -z "$SSH_AUTH_SOCK" ]]; then
    eval ${ssh-agent -s} > /dev/null
   ssh-add ~/.ssh/id_rsa > /dev/null 2>&1
-fi
+fi 
 ssh-add ~/.ssh/id_rsa > /dev/null 2>&1
 
 [[ ! -f ~/.user-scripts.sh ]] || source ~/.user-scripts.sh
