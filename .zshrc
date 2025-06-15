@@ -60,7 +60,7 @@ HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
-HIST_STAMPS="yyyy-mm-dd"
+HIST_STAMPS="%Y-%m-%d"
 
 setopt appendhistory
 setopt sharehistory
@@ -87,3 +87,16 @@ setopt EXTENDED_HISTORY
 # # Shell integrations
 # eval "$(fzf --zsh)"
 # eval "$(zoxide init --cmd cd zsh)"
+
+# users scripts
+
+# Define ZSH_CUSTOM relative to .zshrc location
+ZSH_SCRIPTS=${${(%):-%N}:A:h}/scripts/zsh
+
+# Source all .zsh files in the main directory
+if [[ -d $ZSH_SCRIPTS ]]; then
+  for file in $ZSH_SCRIPTS/*.zsh; do
+    [[ -f "$file" ]] && source "$file"
+  done
+fi
+
