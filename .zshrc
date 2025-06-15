@@ -54,20 +54,22 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 # bindkey '^[w' kill-region
-#
+
 # History
-HISTSIZE=5000
+HIST_STAMPS="%Y-%m-%d %H:%M:%S"
+HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
-# HISTDUP=erase
-# setopt appendhistory
-# setopt sharehistory
-# setopt hist_ignore_space
-# setopt hist_ignore_all_dups
-# setopt hist_save_no_dups
-# setopt hist_ignore_dups
-# setopt hist_find_no_dups
-#
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+setopt EXTENDED_HISTORY
+
 # # Completion styling
 # zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
