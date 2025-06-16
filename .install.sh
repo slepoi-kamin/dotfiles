@@ -23,7 +23,7 @@ if [[ "$PLATFORM" == "mac" ]]; then
 elif [[ "$PLATFORM" == "linux" ]]; then
   # Detect Linux distribution
   echo "➡️ Running Linux setup script..."
-  sh "$SCRIPT_DIR/scripts/install_linux.sh"
+  "$SCRIPT_DIR/scripts/install_linux.sh"
 fi
 
 # Make safe-stow executable
