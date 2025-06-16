@@ -26,7 +26,7 @@ PACKAGES=(
     fzf
     htop
     tree
-    zoxide
+#    zoxide
 
     # Development tools
     make

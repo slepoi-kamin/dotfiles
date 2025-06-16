@@ -93,7 +93,7 @@ alias c='clear'
 
 # Shell integrations
 source <(fzf --zsh 2>/dev/null) || true
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init --cmd cd zsh 2>/dev/null)" 2>/dev/null || true
 
 # Users scripts
 # Define ZSH_CUSTOM relative to .zshrc location
