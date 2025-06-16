@@ -10,8 +10,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
 elif [[ "$(uname)" == "Linux" ]]; then
   PLATFORM="linux"
   echo "🐧 Detected Linux system"
-  echo "❌ Unsupported platform: $(uname)"
-  exit 1
 else
   echo "❌ Unsupported platform: $(uname)"
   exit 1
