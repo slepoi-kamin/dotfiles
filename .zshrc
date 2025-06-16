@@ -50,6 +50,8 @@ zinit light Aloxaf/fzf-tab
 # Add in snippets
 zinit snippet OMZL::git.zsh
 zinit snippet OMZL::history.zsh
+zinit snippet OMZL::grep.zsh
+zinit snippet OMZL::key-bindings.zsh
 
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
