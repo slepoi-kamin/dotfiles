@@ -18,11 +18,13 @@ fi
 
 if [[ "$PLATFORM" == "mac" ]]; then
   echo "➡️ Running macOS setup script..."
+  chmod +x "$SCRIPT_DIR/scripts/install_mac.sh"
   sh "$SCRIPT_DIR/scripts/install_mac.sh"
 
 elif [[ "$PLATFORM" == "linux" ]]; then
   # Detect Linux distribution
   echo "➡️ Running Linux setup script..."
+  chmod +x "$SCRIPT_DIR/scripts/install_linux.sh"
   "$SCRIPT_DIR/scripts/install_linux.sh"
 fi
 
