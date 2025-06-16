@@ -80,7 +80,11 @@ install_upt() {
 install_packages() {
   log "info" "Installing packages with UPT..."
 
-  upt install "${PACKAGES[@]}"
+  for pkg in "${PACKAGES[@]}"; do
+    log "info" "installing $pkg ..."
+    upt install "$pkg"
+  done
+
   log "success" "Essential packages installed."
 }
 
