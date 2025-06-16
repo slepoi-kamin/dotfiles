@@ -1,2 +1,10 @@
 .git
+.gitignore
+
+.idea
+.venv/
+venv/
+README.md
+
 scripts
+.install.sh
