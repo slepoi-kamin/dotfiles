@@ -92,7 +92,7 @@ alias ls='ls --color'
 alias c='clear'
 
 # Shell integrations
-source <(fzf --zsh)
+source <(fzf --zsh) 2>/dev/null) || true
 eval "$(zoxide init --cmd cd zsh)"
 
 # Users scripts
