@@ -65,7 +65,5 @@ cask "jetbrains-toolbox"
 cask "transmission-remote-gui"
 # Network protocol analyzer
 cask "wireshark"
-# HTML to PDF renderer
-cask "wkhtmltopdf"
 # Fast terminal app
 cask "alacritty"
