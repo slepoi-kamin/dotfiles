@@ -67,7 +67,5 @@ cask "orbstack"
 cask "jetbrains-toolbox"
 # Transmission remote GUI
 cask "transmission-remote-gui"
-# Network protocol analyzer
-cask "wireshark"
 # Fast terminal app
 cask "alacritty"
