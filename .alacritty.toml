@@ -3,9 +3,16 @@ TERM = "xterm-256color"
 
 [terminal.shell]
 program = "/bin/zsh"
-args = ["-l"]
+args = ["-l", "-c", 'tmux attach || tmux']
 
 [window]
+#startup_mode = "Maximized"
+dimensions.columns = 220
+dimensions.lines = 60
+
+position.x = 280
+position.y = 200
+
 padding.x = 10
 padding.y = 10
 
@@ -31,3 +38,34 @@ style = "Bold"
 family = "JetBrainsMono Nerd Font"
 style = "Italic"
 
+
+[keyboard]
+bindings = [
+    { key = "D", mods = "Command", chars = "\u0006%" },  # split vertical (default tmux)
+    { key = "D", mods = "Command|Shift", chars = "\u0006\"" },  # split horizontal (default tmux)
+    { key = "W", mods = "Command", chars = "\u0006x" }, # kill pane
+    { key = "H", mods = "Command", chars = "\u0006h" },
+    { key = "J", mods = "Command", chars = "\u0006j" },
+    { key = "K", mods = "Command", chars = "\u0006k" },
+    { key = "L", mods = "Command", chars = "\u0006l" },
+    { key = "T", mods = "Command", chars = "\u0006c" },  # new window/tab
+    { key = "Key1", mods = "Command", chars = "\u00061" },
+    { key = "Key2", mods = "Command", chars = "\u00062" },
+    { key = "Key3", mods = "Command", chars = "\u00063" },
+    { key = "Key4", mods = "Command", chars = "\u00064" },
+    { key = "Key5", mods = "Command", chars = "\u00065" },
+    { key = "Key6", mods = "Command", chars = "\u00066" },
+    { key = "Key7", mods = "Command", chars = "\u00067" },
+    { key = "Key8", mods = "Command", chars = "\u00068" },
+    { key = "Key9", mods = "Command", chars = "\u00069" },
+    { key = "Left", mods = "Command", chars = "\u0006H" },
+    { key = "Down", mods = "Command", chars = "\u0006J" },
+    { key = "Up", mods = "Command", chars = "\u0006K" },
+    { key = "Right", mods = "Command", chars = "\u0006L" },
+
+    # Pane selection
+    { key = "Up",    mods = "Command|Shift", chars = "\u0006\u001b[A" },
+    { key = "Down",  mods = "Command|Shift", chars = "\u0006\u001b[B" },
+    { key = "Left",  mods = "Command|Shift", chars = "\u0006\u001b[D" },
+    { key = "Right", mods = "Command|Shift", chars = "\u0006\u001b[C" },
+]
