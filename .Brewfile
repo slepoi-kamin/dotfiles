@@ -35,6 +35,10 @@ brew "wifi-password"
 brew "zoxide"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
+# Tmux
+brew "tmux"
+# Tmux package manager
+brew "tpm"
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
