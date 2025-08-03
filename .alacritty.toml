@@ -68,4 +68,17 @@ bindings = [
     { key = "Down",  mods = "Command|Shift", chars = "\u0006\u001b[B" },
     { key = "Left",  mods = "Command|Shift", chars = "\u0006\u001b[D" },
     { key = "Right", mods = "Command|Shift", chars = "\u0006\u001b[C" },
+
+    { key = "F1",  chars = "\u001bOP" },
+    { key = "F2",  chars = "\u001bOQ" },
+    { key = "F3",  chars = "\u001bOR" },
+    { key = "F4",  chars = "\u001bOS" },
+    { key = "F5",  chars = "\u001b[15~" },
+    { key = "F6",  chars = "\u001b[17~" },
+    { key = "F7",  chars = "\u001b[18~" },
+    { key = "F8",  chars = "\u001b[19~" },
+    { key = "F9",  chars = "\u001b[20~" },
+    { key = "F10", chars = "\u001b[21~" },
+    { key = "F11", chars = "\u001b[23~" },
+    { key = "F12", chars = "\u001b[24~" },
 ]
