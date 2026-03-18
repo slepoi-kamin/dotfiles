@@ -39,6 +39,8 @@ brew "teamookla/speedtest/speedtest"
 brew "tmux"
 # Tmux package manager
 brew "tpm"
+# Kiro-cli
+brew kiro-cli
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
