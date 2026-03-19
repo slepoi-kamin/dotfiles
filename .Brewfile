@@ -39,8 +39,8 @@ brew "teamookla/speedtest/speedtest"
 brew "tmux"
 # Tmux package manager
 brew "tpm"
-# Kiro-cli
-brew kiro-cli
+# opencode
+brew "anomalyco/tap/opencode"
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
@@ -71,3 +71,5 @@ cask "jetbrains-toolbox"
 cask "transmission-remote-gui"
 # Fast terminal app
 cask "alacritty"
+# Kiro-cli
+cask "kiro-cli"
