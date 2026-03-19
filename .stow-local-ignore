@@ -8,3 +8,8 @@ README.md
 
 scripts
 .install.sh
+
+.opencode
+.opencode/
+.tmp
+.tmp/
