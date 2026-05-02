@@ -121,3 +121,6 @@ fi
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# micro
+export "MICRO_TRUECOLOR=1"

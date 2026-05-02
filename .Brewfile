@@ -41,6 +41,8 @@ brew "tmux"
 brew "tpm"
 # opencode
 brew "anomalyco/tap/opencode"
+# micro editor
+brew "micro"
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
