@@ -1,0 +1,23 @@
+# Font
+font-family = JetBrainsMono Nerd Font
+font-style = SemiBold
+font-size = 13
+
+# Theme
+theme = "Catppuccin Mocha"
+background-opacity = 0.9
+background-blur-radius = 20
+
+# Cursor
+cursor-invert-fg-bg
+
+# Mouse
+mouse-hide-while-typing
+mouse-hide-while-typing = true
+
+# Window
+window-padding-balance = true
+
+macos-option-as-alt = true
+quit-after-last-window-closed = true
+gtk-single-instance = true

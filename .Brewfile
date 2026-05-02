@@ -73,3 +73,5 @@ cask "transmission-remote-gui"
 cask "alacritty"
 # Kiro-cli
 cask "kiro-cli"
+# Ghostty terminal
+cask "ghostty"
