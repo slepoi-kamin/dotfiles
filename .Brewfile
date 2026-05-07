@@ -43,6 +43,8 @@ brew "tpm"
 brew "anomalyco/tap/opencode"
 # micro editor
 brew "micro"
+# libpq - postgresql client library
+brew "libpq"
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
