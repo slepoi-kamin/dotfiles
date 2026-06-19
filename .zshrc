@@ -124,3 +124,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # micro
 export "MICRO_TRUECOLOR=1"
+
+# LM Studio CLI (lms)
+if [[ -f "$HOME/.lmstudio/bin" ]] then
+  export PATH="$PATH:$HOME/.lmstudio/bin"
+fi
+# End of LM Studio CLI section
+
