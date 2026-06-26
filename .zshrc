@@ -132,3 +132,4 @@ if [[ -f "$HOME/.lmstudio/bin" ]] then
 fi
 # End of LM Studio CLI section
 
+export PATH="/opt/homebrew/opt/node@24/bin:$PATH"

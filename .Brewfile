@@ -79,3 +79,5 @@ cask "alacritty"
 cask "kiro-cli"
 # Ghostty terminal
 cask "ghostty"
+# dockdoor
+cask "dockdoor"
