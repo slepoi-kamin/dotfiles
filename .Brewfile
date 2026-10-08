@@ -1,4 +1,6 @@
 tap "teamookla/speedtest"
+tap "basicmachines-co/basic-memory"
+
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Command-line fuzzy finder written in Go
@@ -45,6 +47,8 @@ brew "anomalyco/tap/opencode"
 brew "micro"
 # libpq - postgresql client library
 brew "libpq"
+# obsidian memory for AI agents
+brew "basicmachines-co/basic-memory/basic-memory"
 
 # Utilities designed to make common development tasks easier
 cask "devtoys"
